@@ -1,0 +1,23 @@
+{
+  "name": "egorryaroslavl/galleries",
+  "description": "Galleries Version 2",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "egorr",
+      "email": "yaroslavl.city@gmail.com"
+    }
+  ],
+  "require": {
+    "egorryaroslavl/admin": "^1.0",
+    "laravelcollective/html": "^5.4",
+    "intervention/image": "^2.3",
+    "barryvdh/laravel-elfinder": "^0.3.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Egorryaroslavl\\Galleries\\": "src/"
+    }
+  }
+}
